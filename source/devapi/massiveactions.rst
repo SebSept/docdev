@@ -48,7 +48,6 @@ If default massive actions are not sufficient for your needs, you can define you
 2. display the form in ``showMassiveActionsSubForm``
 3. process in ``processMassiveActionsForOneItemtype``
 
-First, we need to implement ``getSpecificMassiveActions`` to add our new massive action:
 
 .. code-block:: php
 
