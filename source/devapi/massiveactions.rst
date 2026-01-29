@@ -44,9 +44,9 @@ Specific massive actions
 If default massive actions are not sufficient for your needs, you can define your own massive actions.
 3 methods must be defined to achieve this.
 
-1. declare the massive action in ``getSpecificMassiveActions``
-2. display the massive action form in ``showMassiveActionsSubForm``
-3. process the massive action in ``processMassiveActionsForOneItemtype``
+1. declare the actions in ``getSpecificMassiveActions``
+2. display the form in ``showMassiveActionsSubForm``
+3. process in ``processMassiveActionsForOneItemtype``
 
 First, we need to implement ``getSpecificMassiveActions`` to add our new massive action:
 
